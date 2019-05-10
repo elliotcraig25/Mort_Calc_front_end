@@ -4,7 +4,7 @@ import Veteran from '../Veteran/Veteran';
 import Financial from '../Financial/Financial';
 import Result from '../Result/Result';
 import axios from "axios";
-import baseUrl from '../../../config'
+import baseUrl from '../../config';
 
 
 const Display = () => {
