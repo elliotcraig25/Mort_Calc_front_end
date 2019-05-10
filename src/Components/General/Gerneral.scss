@@ -1,6 +1,105 @@
 .general {
     background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    h2 {
+        font-weight: 500;
+        color: #4e4e4e;
+        padding-top: 15px;
+        margin-top: 0;
+    }
     h3 {
         margin: 0;
+        font-size: 12px;
+        font-weight: 100;
+        color: #4e4e4e;
+    }
+    select {
+        height: 30px;
+        border: 1px solid gray;
+        width: 100%;
+        border-radius: 0;
+        color: #4e4e4e;
+    }
+    .input_container {
+        width: 230px;
+        height: 450px;
+        
+        .state {
+            height: 50px;
+            // border: 1px solid tomato;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 20px;
+        }
+
+        .county {
+            height: 50px;
+            // border: 1px solid tomato;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 20px;
+        }
+
+        .loan {
+            height: 50px;
+            // border: 1px solid tomato;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 20px;
+        }
+
+        .credit {
+            height: 50px;
+            // border: 1px solid tomato;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 20px;
+        }
+
+        .length {
+            height: 50px;
+            // border: 1px solid tomato;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 20px;
+        }
+
+        .rate {
+            height: 50px;
+            // border: 1px solid tomato;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 20px;
+        }
+
+        .veteran {
+            height: 50px;
+            // border: 1px solid tomato;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: orange;
+        }
     }
 }
+
