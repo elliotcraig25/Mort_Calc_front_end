@@ -31,31 +31,31 @@ const General = () => {
         <div className='general'>
             <h2>Calculate Your Mortgage</h2>
             <div className='input_container'>
-                <div className='state'>
+                <div className='state select_div'>
                     <h3>Select State</h3>
                     <select value={state} onChange={(e) => updateState(e.target.value)}>
                         {data.state.map((e: string, i: number) => <option key={i}>{e}</option>)}
                     </select>
                 </div>
-                <div className='county'>
+                <div className='county select_div'>
                     <h3>Select County</h3>
                     <select value={county} onChange={(e) => updateCounty(e.target.value)}>
                         {justCounty.map((e: string, i: number) => <option key={i}>{pascalCase(e)}</option>)}
                     </select>
                 </div>
-                <div className='loan'>
+                <div className='loan select_div'>
                     <h3>Select Loan Type</h3>
                     <select value={type} onChange={(e) => updateType(e.target.value)}>
                         {data.type.map((e: string, i: number) => <option key={i}>{e}</option>)}
                     </select>
                 </div>
-                <div className='credit'>
+                <div className='credit select_div'>
                     <h3>Select Credit Range</h3>
                     <select value={credit} onChange={(e) => updateCredit(e.target.value)}>
                         {data.credit.map((e: string, i: number) => <option key={i}>{e}</option>)}
                     </select>
                 </div>
-                <div className='length'>
+                <div className='length select_div'>
                     <h3>Loan Length (years)</h3>
                     <select
                         value={years}
@@ -64,7 +64,7 @@ const General = () => {
                         {data.years.map((e: number, i: number) => <option key={i}>{e}</option>)}
                     </select>
                 </div>
-                <div className='rate'>
+                <div className='rate select_div'>
                     <h3>Loan Rate (default to current rate)</h3>
                     <div>
                         <datalist id="tickmarks">
@@ -91,7 +91,7 @@ const General = () => {
                         <label>Rate of {rate}%</label>
                     </div>
                 </div>
-                <div className='veteran'>
+                <div className='veteran select_div'>
                     <p>Are you a Veteran:</p>
 
                     <div>

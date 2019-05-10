@@ -27,7 +27,7 @@
         width: 230px;
         height: 450px;
         
-        .state {
+        .select_div {
             height: 50px;
             // border: 1px solid tomato;
             display: flex;
@@ -35,66 +35,34 @@
             justify-content: space-between;
             align-items: baseline;
             margin-bottom: 20px;
+        }
+
+        .state {
+            
         }
 
         .county {
-            height: 50px;
-            // border: 1px solid tomato;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 20px;
+            
         }
 
         .loan {
-            height: 50px;
-            // border: 1px solid tomato;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 20px;
+           
         }
 
         .credit {
-            height: 50px;
-            // border: 1px solid tomato;
-            display: flex;
-            flex-direction: column; 
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 20px;
+            
         }
 
         .length {
-            height: 50px;
-            // border: 1px solid tomato;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 20px;
+           
         }
 
         .rate {
-            height: 50px;
-            // border: 1px solid tomato;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 20px;
+           
         }
 
         .veteran {
-            height: 50px;
-            // border: 1px solid tomato;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 20px;
+           
         }
 
         button {
