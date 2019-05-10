@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Header from '../Header/Header';
 import General from '../General/General';
 import Veteran from '../Veteran/Veteran';
 import Financial from '../Financial/Financial';
@@ -51,6 +52,7 @@ const Display = () => {
 
     return (
         <div>
+            <Header />
             <General />
             <hr />
             <Veteran />

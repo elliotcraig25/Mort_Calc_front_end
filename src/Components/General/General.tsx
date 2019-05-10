@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
+import './Gerneral.scss';
 import data from '../../Data/Data';
 
 
@@ -27,7 +28,8 @@ const General = () => {
     // const handleRateChange = (r: string): void => updateRate(r.slice(0, r.indexOf('%')))
 
     return (
-        <div>
+        <div className='general'>
+            <h2>Calculate Your Mortgage</h2>
             <h3>Select State</h3>
             <select value={state} onChange={(e) => updateState(e.target.value)}>
                 {data.state.map((e: string, i: number) => <option key={i}>{e}</option>)}
